@@ -48,11 +48,9 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2024",
       description: "Working on Playwright and TestNG framework to create UI automation custom. Working on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB",
-      // description: //add description
-        // "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
     {
-      company: "John Deere", //Amdocs
+      company: "John Deere",
       link: "https://www.deere.com/en/index.html", 
       badges: ["Intern"],
       title: "Automation Test Intern",
