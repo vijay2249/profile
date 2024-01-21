@@ -41,6 +41,7 @@ export default function Page() {
                   variant="outline"
                   size="icon"
                   asChild
+                  ariaLabel={`${RESUME_DATA.contact.email}`}
                 >
                   <a href={`mailto:${RESUME_DATA.contact.email}`}>
                     <MailIcon className="size-4" />
