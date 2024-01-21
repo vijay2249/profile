@@ -19,11 +19,13 @@ export const RESUME_DATA = {
     tel: false,
     social: [
       {
+        userName: "Vijay2249",
         name: "GitHub",
         url: "https://github.com/vijay2249",
         icon: GitHubIcon,
       },
       {
+        userName: "VijayCh0710",
         name: "X",
         url: "https://x.com/VijayCh0710",
         icon: XIcon,
