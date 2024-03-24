@@ -44,7 +44,7 @@ export const RESUME_DATA = {
     {
       company: "Amdocs",
       link: "https://www.amdocs.com/",
-      title: "Software Engineer → Automation Test Engineer",
+      title: "Software Engineer → Automation Test Engineer → Software Engineer",
       logo: Amdocs,
       badges: [],
       start: "2023",
