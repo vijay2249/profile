@@ -47,7 +47,7 @@ export const RESUME_DATA = {
       title: "Software Engineer",
       logo: Amdocs,
       badges: [],
-      start: "2023",
+      start: "July 2023",
       end: "Ongoing",
       description: "Working on Playwright and TestNG framework to create UI automation custom. Working on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB",
     },
