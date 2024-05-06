@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       logo: Amdocs,
       badges: [],
       start: "2023",
-      end: "2024",
+      end: "Ongoing",
       description: "Working on Playwright and TestNG framework to create UI automation custom. Working on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB",
     },
     {
