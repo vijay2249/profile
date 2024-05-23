@@ -16,14 +16,16 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://vijay2249.github.io",
   contact: {
     email: "vijaychowdary2249@protonmail.com",
-    tel: "",
+    tel: false,
     social: [
       {
+        userName: "Vijay2249",
         name: "GitHub",
         url: "https://github.com/vijay2249",
         icon: GitHubIcon,
       },
       {
+        userName: "VijayCh0710",
         name: "X",
         url: "https://x.com/VijayCh0710",
         icon: XIcon,
@@ -42,11 +44,11 @@ export const RESUME_DATA = {
     {
       company: "Amdocs",
       link: "https://www.amdocs.com/",
-      title: "Software Engineer → Automation Test Engineer",
+      title: "Software Engineer",
       logo: Amdocs,
       badges: [],
-      start: "2023",
-      end: "2024",
+      start: "July 2023",
+      end: "Ongoing",
       description: "Working on Playwright and TestNG framework to create UI automation custom. Working on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB",
     },
     {

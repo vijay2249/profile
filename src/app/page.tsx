@@ -41,6 +41,7 @@ export default function Page() {
                   variant="outline"
                   size="icon"
                   asChild
+                  aria-label={`${RESUME_DATA.contact.email}`}
                 >
                   <a href={`mailto:${RESUME_DATA.contact.email}`}>
                     <MailIcon className="size-4" />
@@ -53,6 +54,7 @@ export default function Page() {
                   variant="outline"
                   size="icon"
                   asChild
+                  aria-label={`${RESUME_DATA.contact.tel}`}
                 >
                   <a href={`tel:${RESUME_DATA.contact.tel}`}>
                     <PhoneIcon className="size-4" />
@@ -66,6 +68,7 @@ export default function Page() {
                   variant="outline"
                   size="icon"
                   asChild
+                  aria-label={`${social.userName}`}
                 >
                   <a href={social.url}>
                     <social.icon className="size-4" />
