@@ -44,12 +44,14 @@ export const RESUME_DATA = {
     {
       company: "Amdocs",
       link: "https://www.amdocs.com/",
-      title: "Software Engineer",
+      title: "Software Developer",
       logo: Amdocs,
       badges: [],
       start: "July 2023",
       end: "Ongoing",
-      description: "Working on Playwright and TestNG framework to create UI automation custom. Working on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB",
+      description: `- worked on automation based on Playwright and TestNG framework to create UI automation in Java.
+                    - And worked on backend automtion using TestNG and SprinBoot frameworks.
+                    - Working on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB`,
     },
     {
       company: "John Deere",
@@ -74,6 +76,7 @@ export const RESUME_DATA = {
     "Selenium",
     "Playwright",
     "TestNG",
+    "JUnit",
     "Postman",
     "C++"
   ],
