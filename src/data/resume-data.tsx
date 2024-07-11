@@ -49,9 +49,7 @@ export const RESUME_DATA = {
       badges: [],
       start: "July 2023",
       end: "Ongoing",
-      description: `- worked on automation based on Playwright and TestNG framework to create UI automation in Java.
-                    - And worked on backend automtion using TestNG and SprinBoot frameworks.
-                    - Working on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB`,
+      description: `Worked on automation based on Playwright and TestNG framework to create UI automation in Java. \nWorked on backend automtion using TestNG and SprinBoot frameworks. \nWorking on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB`,
     },
     {
       company: "John Deere",
