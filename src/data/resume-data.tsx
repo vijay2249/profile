@@ -11,7 +11,10 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Kanigiri", 
   about:
   "Software Developer with experience in Automation Testing and Developing Microservices",
-  summary:"As a Software Developer, I have worked with developing microservice applications that integrate with kakfa and connect with Couchbase DB. As a Automation Test Engineer I have also created framework for UI automation using TestNG, Selenium, Playwright. Current tech stack, Java, SpringBoot, Playwright", //add more summary
+  summary:[
+    "As a Software Developer, I have worked with developing microservice applications that integrate with kakfa and connect with Couchbase DB", 
+    "As a Automation Test Engineer I have also created framework for UI automation using TestNG, Selenium, Playwright.",
+  ],
   avatarUrl: "https://avatars.githubusercontent.com/u/65058877?v=4",
   personalWebsiteUrl: "https://vijay2249.github.io",
   contact: {
@@ -49,7 +52,11 @@ export const RESUME_DATA = {
       badges: [],
       start: "July 2023",
       end: "Ongoing",
-      description: `Worked on automation based on Playwright and TestNG framework to create UI automation in Java. \nWorked on backend automtion using TestNG and SprinBoot frameworks. \nWorking on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB`,
+      description: [
+        "Worked on automation based on Playwright and TestNG framework to create UI automation in Java",
+        "Worked on backend automtion using TestNG and SprinBoot frameworks",
+        "Working on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB",
+      ]
     },
     {
       company: "John Deere",
@@ -59,7 +66,10 @@ export const RESUME_DATA = {
       logo: JohnDeere,
       start: "May 2022",
       end: "July 2022",
-      description: "Created an automation framework for testing UI application. Technologies: Python",
+      description: [
+        "Created an automation framework for testing UI application.",
+        "Technologies: Python",
+      ]
     },
   ],
   skills: [
@@ -79,6 +89,18 @@ export const RESUME_DATA = {
     "C++"
   ],
   projects: [
+    {
+      title: "MaxiMock",
+      description: "AddOn functionalities on mapping stub responses in an wiremock setup environment",
+      techStack: [
+        "Java",
+        "Maven"
+      ],
+      link: {
+        label: "Mocks",
+        href: "https://github.com/wedonttrack/maximock"
+      }
+    },
     {
       title: "BoringNotes",
       description: "My place where I share my notes and concepts that I learned along the way with folks like me.",
@@ -146,5 +168,19 @@ export const RESUME_DATA = {
         href: "https://the-bots-assembly.netlify.app/"
       }
     }
+  ],
+  achievements: [
+    {
+      title: "MaxiMock",
+      description: "AddOn functionalities on mapping stub responses in an wiremock setup environment",
+      techStack: [
+        "Java",
+        "Maven"
+      ],
+      link: {
+        label: "Mocks",
+        href: "https://github.com/wedonttrack/maximock"
+      }
+    },
   ],
 } as const;
