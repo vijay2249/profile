@@ -98,7 +98,7 @@ export default function Page() {
         <Section>
           <h2 className="text-xl font-bold">| About |</h2>
           <div className="text-pretty font-mono text-sm text-muted-foreground">
-            {RESUME_DATA.summary.map(item => <li className="mt-2">{item}</li>)}
+            {RESUME_DATA.about.map((item, index) => <li key={index} className="mt-3 list-none">{item}</li>)}
           </div>
         </Section>
         <Section>
@@ -134,8 +134,8 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                  {work.description.map(item => <li className="mt-2">{item}</li>)}
+                <CardContent className="mt-3 text-xs">
+                  {work.description.map((item, index) => <li key={index} className="mt-3 list-none">{item}</li>)}
                 </CardContent>
               </Card>
             );
@@ -156,7 +156,7 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-3">{education.degree}</CardContent>
               </Card>
             );
           })}
@@ -174,17 +174,6 @@ export default function Page() {
           <h2 className="text-xl font-bold">| Achievements |</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             <img src="https://tryhackme-badges.s3.amazonaws.com/HomelyRunaway.png" alt="TryHackMe" />
-            {RESUME_DATA.achievements.map((project) => {
-              return (
-                <ProjectCard
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
-                />
-              );
-            })}
           </div>
         </Section>
 

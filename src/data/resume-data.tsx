@@ -9,13 +9,12 @@ export const RESUME_DATA = {
   initials: "VCN",
   location: "Kanigiri, AP, India",
   locationLink: "https://www.google.com/maps/place/Kanigiri", 
-  about:
-  "Software Developer with experience in Automation Testing and Developing Microservices",
-  summary:[
+  summary: "Software Developer with experience in Automation Testing and Developing Microservices",
+  about:[
     "As a Software Developer, I have worked with developing microservice applications that integrate with kakfa and connect with Couchbase DB", 
     "As a Automation Test Engineer I have also created framework for UI automation using TestNG, Selenium, Playwright.",
   ],
-  avatarUrl: "https://avatars.githubusercontent.com/u/65058877?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/65058877",
   personalWebsiteUrl: "https://vijay2249.github.io",
   contact: {
     email: "vijaychowdary2249@protonmail.com",
@@ -53,9 +52,10 @@ export const RESUME_DATA = {
       start: "July 2023",
       end: "Ongoing",
       description: [
-        "Worked on automation based on Playwright and TestNG framework to create UI automation in Java",
-        "Worked on backend automtion using TestNG and SprinBoot frameworks",
-        "Working on Microservices implementation with technologies like SpringBoot, and integrated with Kafka, CouchbaseDB",
+        "Worked on UI automation from scratch using Playwright, TestNG, SpringBoot frameworks in Java",
+        "Worked on Backend automation using TestNG, JUnit, SpringBoot framework in Java",
+        "Created jenkins pipelines in groovy language to run these automation scripts daily on multiple environments to do sanity",
+        "Working on large-scale projects with a microservices architecture, utilizing technologies like Kubernetes for container orchestration, Couchbase as a NoSQL database, and Java with the Spring Boot framework for back-end development",
       ]
     },
     {
@@ -67,7 +67,7 @@ export const RESUME_DATA = {
       start: "May 2022",
       end: "July 2022",
       description: [
-        "Created an automation framework for testing UI application.",
+        "Build automation framework from scratch in Python using Pywinauto framework for custom windows application.",
         "Technologies: Python",
       ]
     },
