@@ -9,10 +9,10 @@ export const RESUME_DATA = {
   initials: "VCN",
   location: "Kanigiri, AP, India",
   locationLink: "https://www.google.com/maps/place/Kanigiri", 
-  summary: "Software Developer with experience in Automation Testing and Developing Microservices",
+  summary: "Experienced Software Engineer with experience Developing Microservices using SpringBoot and Automation Testing",
   about:[
-    "As a Software Developer, I have worked with developing microservice applications that integrate with kakfa and connect with Couchbase DB", 
-    "As a Automation Test Engineer I have also created framework for UI automation using TestNG, Selenium, Playwright.",
+    "As a Software Developer, I have worked with developing microservice applications using SpringBoot framework that integrate with kakfa and connect with Couchbase DB", 
+    "As a Automation Test Engineer I have also created framework for UI automation and Backend automation using TestNG, Selenium, Playwright.",
   ],
   avatarUrl: "https://avatars.githubusercontent.com/u/65058877",
   personalWebsiteUrl: "https://vijay2249.github.io",
@@ -25,12 +25,6 @@ export const RESUME_DATA = {
         name: "GitHub",
         url: "https://github.com/vijay2249",
         icon: GitHubIcon,
-      },
-      {
-        userName: "VijayCh0710",
-        name: "X",
-        url: "https://x.com/VijayCh0710",
-        icon: XIcon,
       },
     ],
   },
@@ -46,11 +40,26 @@ export const RESUME_DATA = {
     {
       company: "Amdocs",
       link: "https://www.amdocs.com/",
+      title: "Experienced Software Engineer",
+      logo: Amdocs,
+      badges: [],
+      start: "July 2025",
+      end: "Ongoing",
+      description: [
+        "Worked on UI automation from scratch using Playwright, TestNG, SpringBoot frameworks in Java",
+        "Worked on Backend automation using TestNG, JUnit, SpringBoot framework in Java",
+        "Created jenkins pipelines in groovy language to run these automation scripts daily on multiple environments to do sanity",
+        "Working on large-scale projects with a microservices architecture, utilizing technologies like Kubernetes for container orchestration, Couchbase as a NoSQL database, and Java with the Spring Boot framework for back-end development",
+      ]
+    },
+    {
+      company: "Amdocs",
+      link: "https://www.amdocs.com/",
       title: "Software Developer",
       logo: Amdocs,
       badges: [],
       start: "July 2023",
-      end: "Ongoing",
+      end: "June 2025",
       description: [
         "Worked on UI automation from scratch using Playwright, TestNG, SpringBoot frameworks in Java",
         "Worked on Backend automation using TestNG, JUnit, SpringBoot framework in Java",
@@ -89,6 +98,17 @@ export const RESUME_DATA = {
     "C++"
   ],
   projects: [
+    {
+      title: "vproxie",
+      description: "Simple proxy server between client and servers to delete any PII data from requests or responses. Additional features include subdomain routing and endpoint routing.",
+      techStack: [
+        "GO"
+      ],
+      link: {
+        label: "Proxie",
+        href: "https://github.com/vijay2249/vproxie"
+      }
+    },
     {
       title: "MaxiMock",
       description: "AddOn functionalities on mapping stub responses in an wiremock setup environment",
